@@ -56,4 +56,14 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ommnexusrepo</id>
+      <url>http://10.168.56.30:8081/repository/maven-omm-snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>ommnexusrepo</id>
+      <url>http://10.168.56.30:8081/repository/maven-omm/</url>
+    </repository>
+  </distributionManagement>  
 </project>
